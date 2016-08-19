@@ -1,4 +1,4 @@
-This code allows Dynare to penalize contemporaneous cross-correlation in the shocks. It's very much a work in progress.
+This code allows Dynare to penalize contemporaneous cross-correlation in the shocks.
 
 Code:
 
@@ -21,18 +21,20 @@ As expected, the parameter estimates change when the penalty is applied. To see 
 
 But unfortunately I receive a warning from dynare when I estimate the mode of the posterior. See below. However, this warning occurs even without my modifications to dsge_likelihood(). I think this is an issue with estimation using Smets_Wouters_2007.mod.
 
-POSTERIOR KERNEL OPTIMIZATION PROBLEM!
+Posterior Kernel Optimization Problem. 
+
  (minus) the hessian matrix at the "mode" is not positive definite!
 => posterior variance of the estimated parameters are not positive.
 You should try to change the initial values of the parameters using
 the estimated_params_init block, or use another optimization routine.
+
 [Warning: The results below are most likely wrong!]
 
 As a result, I think we should do more tests to check that the new code is working.
 
 Questions:
 
-1. What estimation should I try? 
+What estimation should I try? 
 
 I noticed that the original Smets_Wouters_2007.mod did not actually estimate anything. It had the following configuration: 
 
