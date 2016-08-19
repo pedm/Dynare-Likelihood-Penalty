@@ -1,0 +1,186 @@
+Results:
+
+1) Penalty = 1000 and MaxIter = 200
+
+RESULTS FROM POSTERIOR ESTIMATION
+parameters
+        prior mean     mode    s.d. prior pstdev
+
+crhoa       0.500   0.9871  0.0008 beta  0.2000 
+crhob       0.500   0.7473  0.0013 beta  0.2000 
+crhog       0.500   0.8840  0.0012 beta  0.2000 
+crhoqs      0.500   0.8640  0.0016 beta  0.2000 
+crhoms      0.500   0.0272  0.0017 beta  0.2000 
+crhopinf    0.500   0.9146  0.0010 beta  0.2000 
+crhow       0.500   0.9848  0.0005 beta  0.2000 
+cmap        0.500   0.3676  0.0036 beta  0.2000 
+cmaw        0.500   0.8136  0.0024 beta  0.2000 
+csadjcost   4.000   5.7393  0.0183 norm  1.5000 
+csigma      1.500   0.6125  0.0010 norm  0.3750 
+chabb       0.700   0.7658  0.0009 beta  0.1000 
+cprobw      0.500   0.6212  0.0009 beta  0.1000 
+csigl       2.000   2.2717  0.0064 norm  0.7500 
+cprobp      0.500   0.5007  0.0010 beta  0.1000 
+cindw       0.500   0.7777  0.0025 beta  0.1500 
+cindp       0.500   0.1290  0.0014 beta  0.1500 
+czcap       0.500   0.3324  0.0027 beta  0.1500 
+cfc         1.250   1.2726  0.0024 norm  0.1250 
+crpi        1.500   1.8911  0.0034 norm  0.2500 
+crr         0.750   0.8581  0.0007 beta  0.1000 
+cry         0.125   0.0032  0.0004 norm  0.0500 
+crdy        0.125   0.1594  0.0005 norm  0.0500 
+constepinf   0.625   0.8080  0.0437 gamm  0.1000 
+constebeta   0.250   0.2616  0.0000 gamm  0.1000 
+constelab   0.000  -1.7113  0.7366 norm  2.0000 
+ctrend      0.400   0.5045  0.0010 norm  0.1000 
+cgy         0.500   0.5890  0.0015 norm  0.2500 
+calfa       0.300   0.0679  0.0005 norm  0.0500 
+
+standard deviation of shocks
+        prior mean     mode    s.d. prior pstdev
+
+ea          0.100   0.6164  0.0309 invg  2.0000 
+eb          0.100   0.1797  0.0110 invg  2.0000 
+eg          0.100   0.7638  0.0370 invg  2.0000 
+eqs         0.100   0.2674  0.0078 invg  2.0000 
+em          0.100   0.2338  0.0073 invg  2.0000 
+epinf       0.100   0.2117  0.0128 invg  2.0000 
+ew          0.100   0.3098  0.0074 invg  2.0000 
+
+fval = 1714.9 (fval_original = 1574.9, Loss2 = 0.13999)
+
+Log data density [Laplace approximation] is -1892.955715.
+
+Total computing time : 0h08m41s
+Note: warning(s) encountered in MATLAB/Octave code
+
+oo_.posterior.optimization.mode
+ans =
+    0.6164
+    0.1797
+    0.7638
+    0.2674
+    0.2338
+    0.2117
+    0.3098
+    0.9871
+    0.7473
+    0.8840
+    0.8640
+    0.0272
+    0.9146
+    0.9848
+    0.3676
+    0.8136
+    5.7393
+    0.6125
+    0.7658
+    0.6212
+    2.2717
+    0.5007
+    0.7777
+    0.1290
+    0.3324
+    1.2726
+    1.8911
+    0.8581
+    0.0032
+    0.1594
+    0.8080
+    0.2616
+   -1.7113
+    0.5045
+    0.5890
+    0.0679
+
+2) Penalty = 0 and MaxIter = 200
+
+RESULTS FROM POSTERIOR ESTIMATION
+parameters
+        prior mean     mode    s.d. prior pstdev
+
+crhoa       0.500   0.9826  0.0044 beta  0.2000 
+crhob       0.500   0.1394  0.0816 beta  0.2000 
+crhog       0.500   0.9686  0.0102 beta  0.2000 
+crhoqs      0.500   0.6121  0.0549 beta  0.2000 
+crhoms      0.500   0.2000  0.0639 beta  0.2000 
+crhopinf    0.500   0.9856  0.0085 beta  0.2000 
+crhow       0.500   0.9818  0.0093 beta  0.2000 
+cmap        0.500   0.8341  0.0568 beta  0.2000 
+cmaw        0.500   0.9337  0.0203 beta  0.2000 
+csadjcost   4.000   6.3121  0.9473 norm  1.5000 
+csigma      1.500   1.2680  0.1135 norm  0.3750 
+chabb       0.700   0.8055  0.0391 beta  0.1000 
+cprobw      0.500   0.7668  0.0374 beta  0.1000 
+csigl       2.000   2.5207  0.5816 norm  0.7500 
+cprobp      0.500   0.5306  0.0462 beta  0.1000 
+cindw       0.500   0.5344  0.1060 beta  0.1500 
+cindp       0.500   0.1780  0.0785 beta  0.1500 
+czcap       0.500   0.3596  0.0990 beta  0.1500 
+cfc         1.250   1.6669  0.0728 norm  0.1250 
+crpi        1.500   1.8685  0.1640 norm  0.2500 
+crr         0.750   0.8739  0.0167 beta  0.1000 
+cry         0.125   0.1204  0.0257 norm  0.0500 
+crdy        0.125   0.1282  0.0194 norm  0.0500 
+constepinf   0.625   0.6365  0.0982 gamm  0.1000 
+constebeta   0.250   0.1127  0.0457 gamm  0.1000 
+constelab   0.000   1.3252  0.8421 norm  2.0000 
+ctrend      0.400   0.5113  0.0135 norm  0.1000 
+cgy         0.500   0.5882  0.0859 norm  0.2500 
+calfa       0.300   0.2024  0.0180 norm  0.0500 
+
+standard deviation of shocks
+        prior mean     mode    s.d. prior pstdev
+
+ea          0.100   0.5017  0.0263 invg  2.0000 
+eb          0.100   0.3582  0.0305 invg  2.0000 
+eg          0.100   0.6752  0.0323 invg  2.0000 
+eqs         0.100   0.5679  0.0554 invg  2.0000 
+em          0.100   0.2290  0.0122 invg  2.0000 
+epinf       0.100   0.2181  0.0235 invg  2.0000 
+ew          0.100   0.2663  0.0180 invg  2.0000 
+
+fval = 1484.3 (no penalty applied)
+
+Log data density [Laplace approximation] is -1571.466177.
+
+Total computing time : 0h04m56s
+
+oo_.posterior.optimization.mode
+ans =
+    0.5017
+    0.3582
+    0.6752
+    0.5679
+    0.2290
+    0.2181
+    0.2663
+    0.9826
+    0.1394
+    0.9686
+    0.6121
+    0.2000
+    0.9856
+    0.9818
+    0.8341
+    0.9337
+    6.3121
+    1.2680
+    0.8055
+    0.7668
+    2.5207
+    0.5306
+    0.5344
+    0.1780
+    0.3596
+    1.6669
+    1.8685
+    0.8739
+    0.1204
+    0.1282
+    0.6365
+    0.1127
+    1.3252
+    0.5113
+    0.5882
+    0.2024
